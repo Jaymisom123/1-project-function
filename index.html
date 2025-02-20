@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="satyles.css">
+    <title>Jokenpô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <div class="maos">
+            <button onclick="playHuman('rock')" id="rock">&#128074;</button>
+            <button onclick="playHuman('paper')" id="paper">&#9995;</button>
+            <button onclick="playHuman('scissors')" id="scissors">&#x270c;</button>
+        </div>
+        <p>Sua Pontuação :<samp id="your-score">0</samp></p>
+        <p> Pontuação da Máquina :<samp id="machine-score">0</samp></p>
+
+        <p class="result"></p>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

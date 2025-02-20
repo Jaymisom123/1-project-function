@@ -1,0 +1,75 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./backgroud\ jogo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    padding: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+button {
+    padding: 20px;
+    background-color:#162932 ;
+    border-radius: 15px;
+    font-size: 60px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    opacity: 80%;
+
+}
+
+button:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+
+}
+
+button :active {
+
+    transform: scale(0.95);
+}
+
+h1{
+
+    font-size: 50px;color: rgb(0, 0, 0);
+
+    
+}
+
+p{
+    font-weight: bolder;
+   font-size: 20px;
+   color: white;
+   background-color:#162932 ;
+}
+
+samp{
+    color: rgb(226, 21, 21);
+}
+
+.result {
+    color: #FFC83D;
+    background-color:#162932;
+}
